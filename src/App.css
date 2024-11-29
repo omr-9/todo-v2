@@ -1,0 +1,119 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+.list::-webkit-scrollbar {
+  display: none; /* This hides the scrollbar */
+}
+body{
+  background-color: #222831;
+}
+.icon {
+  transition: all 0.3s !important;
+}
+.checkIcon:hover {
+  background-color: rgba(154, 205, 50,0.7) !important;
+  color: white !important;
+}
+.updateIcon:hover {
+  background-color: rgba(65, 105, 225,0.7) !important;
+  color: white !important;
+}
+.deleteIcon:hover {
+  background-color: rgba(255, 99, 71,0.7) !important;
+  color: white !important;
+}
+@media (max-width: 550px) {
+  .toggle-btn-group {
+    display: flex;
+    flex-direction: row !important;
+  }
+}
+
+@media (max-width: 750px) {
+  .container {
+    padding: 5px !important;
+  }
+
+  .main-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input-field {
+    width: 100% !important;
+    padding: 0 10px;
+    margin-top: 10px !important;
+  }
+
+  .body-div {
+    display: flex;
+    width: 100% !important;
+    flex-direction: column !important;
+    margin-left: -20px;
+  }
+
+  .add-btn {
+    margin-top: 20px !important;
+    width: 100% !important;
+  }
+
+  .btnsDiv {
+    width: 95% !important;
+    display: flex;
+  
+    justify-content: end !important;
+  }
+
+  .toggle-btn-group {
+    /* flex-direction: column; */
+    width: 100% !important;
+    margin-top: 20px;
+    padding: 0 !important;
+  }
+
+  .toggle-btn {
+    width: 100% !important;
+    text-align: center;
+    padding: 8px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding: 10px !important;
+  }
+
+  .input-field {
+    width: 100% !important;
+    margin-top: 8px;
+  }
+
+  .add-btn {
+    width: 100% !important;
+    margin-top: 10px !important;
+  }
+
+  .toggle-btn-group {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .toggle-btn {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+
+  .MuiTypography-h3 {
+    font-size: 1.5rem;
+  }
+
+  .MuiTypography-h6 {
+    font-size: 1rem;
+  }
+}
